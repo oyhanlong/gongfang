@@ -1,0 +1,134 @@
+
+.change_ul {
+    padding: 76px 0 0 100px;
+}
+ol, ul {
+    list-style: outside none none;
+}
+
+
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.change_ul li {
+    padding-top: 30px;
+}
+.clearfix {
+    display: block;
+}
+
+body {
+    color: #404040;
+    font-family: "Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.change_ul .name {
+    float: left;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: right;
+    width: 230px;
+}
+
+
+
+.change_ul .right b {
+    color: #666;
+    padding-left: 10px;
+}
+
+.fl {
+    display: inline;
+    float: left;
+}
+a img, img {
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, audio, video {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.change_ul .right .ch_btn {
+    padding-left: 10px;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+.fl {
+    display: inline;
+    float: left;
+}
+a {
+    color: #404040;
+}
+.change_ul .right .code_btn {
+    background-color: #fff;
+    border: 1px solid #ff4a03;
+    color: #ff4a03;
+    height: 40px;
+    padding: 0 10px;
+}
+.change_ul .right input {
+    display: inline-block;
+    float: left;
+}
+input[type="button"], input[type="submit"], input[type="search"], button {
+    border: medium none;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: medium none;
+}
+.change_ul .right {
+    float: left;
+    line-height: 40px;
+}
+.change_ul .right input {
+    display: inline-block;
+    float: left;
+}
+.change_ul .cur_btn {
+    background-color: #ff4a03;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 20px;
+    width: 240px;
+}
+
+.change_ul .right span {
+    color: #999;
+    display: inline-block;
+    float: left;
+    line-height: 40px;
+}
+.f12 {
+    font-family: "verdana";
+    font-size: 12px;
+}
+
+.change_ul .right .cur_input {
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    width: 240px;
+}
+.change_ul .right input {
+    display: inline-block;
+    float: left;
+}
+input, textarea {
+    outline: medium none;
+}
+
+.ok_div {
+    background: rgba(0, 0, 0, 0) url("/h/usersettings/images/prompt3.png") no-repeat scroll 0 0;
+    margin: 120px 0 0 270px;
+    padding: 40px 0 45px 140px;
+}

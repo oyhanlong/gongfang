@@ -1,0 +1,22 @@
+﻿body{margin:0px;font-size:12px;font-family:Arial;line-height:180%}
+td{font-size:12px;}
+img{border:0}
+.b{border:1px solid #A1C0DC;margin-bottom:8px;}
+.b a{text-decoration:none;}
+.b a:hover{text-decoration:underline;}
+.b1{padding:4px 0 4px 10px;}
+.b2{padding:6px 5px 4px 10px;font-size:14px;line-height:150%}
+.x{line-height:60%}
+a.xh{text-decoration:underline;}
+.red{color:#E10000}
+.s_search_form,
+.search_input,
+.search_bt,
+.ask_bt,
+.answer_bt{background:url(../images/base_bg.png) no-repeat;}
+.s_search_form{float:left;height:36px;padding-left:3px;background-position:-255px 0;overflow:hidden;zoom:1;}
+.search_input{width:407px;*width:412px;height:36px;padding:5px 0 4px 5px;*padding:9px 0 0 5px;font-size:16px;background-position:0 -36px;background-repeat:repeat-x;border:none;float:left;}
+.search_bt,.ask_bt,.answer_bt{height:36px;float:left;cursor:pointer;border:none;text-indent:-9999px;margin-right:5px;}
+.search_bt{width:95px;}
+.ask_bt{width:80px;background-position:-95px 0;}
+.answer_bt{width:80px;background-position:-175px 0;}

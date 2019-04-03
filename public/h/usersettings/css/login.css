@@ -1,0 +1,251 @@
+﻿.header .h_middle {padding: 20px 0 15px;}
+.header #logo:hover{ text-decoration: none;}
+.header .h_middle span {display: inline-block; margin:7px 0 0 20px; height: 55px; line-height: 55px; border-left:1px solid #ccc; font-size: 30px; color: #333; text-indent: 21px;}
+.mt30 {margin-top: 30px;}
+.login {margin-bottom: 60px; width: 100%; height: 601px; background: url(../images/login_bg1.jpg) center no-repeat;  overflow: hidden;}
+.login .w1200 {position: relative;}
+.login .l_pic {position: absolute; bottom:0; left: 418px; width: 196px; height: 210px;}
+.login .l_pic:hover {animation:mymove 800ms;}
+@keyframes mymove{
+    0%   {transform:translate3d(0,0,0);}
+    25%  {transform:translate3d(0px,-25px,0);}
+    50%  {transform:translate3d(0px,-15px,0);}
+    75%  {transform:translate3d(0px,-25px,0);}
+    100% {transform:translate3d(0,0,0);}
+}
+.login .login_box {margin-top: 90px; padding:20px 20px 0px 20px; width: 340px; height: 390px; background: rgba(255,255,255,.8); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8ffffff, endColorstr=#c8ffffff);}
+.login .login_box h2 { font-size: 16px; font-weight: normal; background: #fff; height: 60px; line-height: 60px; width: 380px; margin-left: -20px; margin-top: -20px; margin-bottom: 40px;}
+.login .login_box h2 span{ display: inline-block; width: 50%; float: left;background:url("../images/q_icon1.png") no-repeat; text-indent: 60px; cursor: pointer; height: 58px; border-bottom: 2px solid #fff;}
+.login .login_box .show label {display: block; width: 338px; height: 38px; line-height: 38px; border:1px solid #ccc;}
+.login .login_box h2 .type1{ background-position: 33px -33px; position: relative;}
+.login .login_box h2 .type1:after{ content:'';display: inline-block; width: 1px; background: #e6e6e6; height: 30px; top: 15px; position: absolute; right: 0;}
+.login .login_box h2 .type2{ background-position: 38px -83px;}
+.login .login_box h2 .type1.active{ background-position: 33px 20px;}
+.login .login_box h2 .type2.active,
+.login .login_box h2 .type4{ background-position: 38px -135px; color: #ff4a03;}
+.login .login_box h2 .active{ color: #ff4a03; border-color:#ff4a03; }
+.login .login_box label input {display: block; text-indent: 10px; width: 100%; height: 38px; line-height: 38px; background: #fff; border:0;}
+.login .login_box .yan { height: 40px; line-height: 40px;}
+.login .login_box .yan input[type=text] {float: left; text-indent:10px ;width: 205px; height: 38px; line-height: 38px; background: #fff; border:1px solid #ccc;}
+.login .login_box .yan img {float: right;  width: 118px; height: 38px;}
+.login .login_box .enter{width: 340px; height: 50px; font-size: 18px; color: #fff; background: #ff4a03;}
+.login .login_box .other {margin-top: 25px; line-height: 24px;font-size: 12px;}
+.login .login_box .other a {color: #6776a1;  float: right; display: inline-block; margin-left: 20px;}
+.login .login_box .other.tr a{ margin-left: 0px;}
+.login .show{ display: none;}
+.login .show.active{ display: inline-block;}
+.login .recive{ width: 118px; height: 36px; border: 1px solid #ff4a03; float: right; background: #ffede5; display: inline-block; text-align: center; cursor: pointer; line-height: 36px; color: #ff4a03;}
+.footer{ padding-bottom: 0px;}
+.login .notice,
+.no_tice>.notice,
+.dialog_tel .notice{ font-size: 12px; color:#e4393c; line-height: 20px; background: url("../images/q_icon1.png") no-repeat left -253px; text-indent: 20px;}
+/*登录附加样式longyunrui 2016年10月15日14:16:27*/
+.login .no_tice,
+.dialog_tel .no_tice{ font-size: 12px; color:#e4393c; line-height: 20px;height: 20px;display: block; text-indent: 20px;}
+/*注册*/
+.login .register h2{ background:#fff url("../images/q_icon1.png") no-repeat 148px -277px; text-indent: 168px; margin-bottom: 20px;}
+.dialog_register .login .read{ margin: 30px 0 -35px 0;}
+.login .read a{ color: #4f7de2;}
+.dialog_tel .text{ margin-left: 55px;}
+.dialog_tel input[type=text]{ width: 178px; height: 32px;}
+.dialog_tel .btn{ width: 98px; height: 32px; border: 1px solid #ff4a03; color: #ff4a03; background: #ffede5;}
+.dialog_tel .btn:hover{ background: #ff4a03; color: #fff;}
+.dialog_tel .more{ color: #4f7de2;}
+.dialog_tel .more:hover{ text-decoration: underline;}
+.dialog_tel .success{padding: 5px 0; background: url("../images/q_icon1.png") no-repeat left -340px; text-indent: 20px;}
+.dialog_tel .send_tips {padding: 5px 0;}
+.dialog_tel .red{ color: #e4393c;}
+.ui_dialog.login{ background: #fff; margin: 0; width: 710px;height: 425px;}
+.ui_dialog.login .login_box{ margin: 0; background: none; padding:0px; }
+.ui_dialog.login .login_box h2{ margin: 0 0 30px 0; width: 366px;}
+.login .login_right{ width: 252px; padding: 0 30px; border-left: 1px dashed #7f7f7f; height: 350px;}
+.login .login_right .btn{width: 100%;height: 50px; font-size: 18px;color: #fff;background: #ff4a03; margin: 8px 0 35px 0;}
+.login .login_right img{ margin: 30px 0 40px 0;}
+.login .login_right h6{ font-size: 26px; text-indent: 50px; line-height: 62px; background: url("../images/people.png") no-repeat 15px center;}
+.ui_dialog.login .login_box .other{ margin-top: 5px;}
+.ui_dialog.login .layui-layer-title{ display: none;}
+.ui_dialog.login .read{margin: 15px 0 -8px 0;}
+.ui_dialog.login .ui_checkbox i{vertical-align: sub;}
+.ui_dialog.login{ overflow: inherit;}
+/*找回密码*/
+.find{ padding:20px 0 30px 0;}
+.find .w1200{ position: relative;}
+.find .f_left{ width: 260px; position: relative; padding-top: 175px;}
+.find .f_left .text{ position: absolute; background: url("../images/find.png"); width: 270px; height: 145px; color: #fff; top:10px; left: -5px;}
+.find .f_left .text li{ line-height:  18px;list-style: disc inside; margin:10px 10px 0;}
+.find .f_left .messag{ width: 220px; margin: 0 auto;}
+.find .f_left .message b{ font-size: 18px; display: block; line-height: 35px;}
+.find .f_left .message .link{ display:inline-block;  width: 148px; height: 32px; line-height: 32px; border: 1px solid #ff4a03; color: #ff4a03;  margin-bottom: 8px;}
+.find .f_left .message .link:hover{ text-decoration: none; background: #ff4a03; color: #fff;}
+.find .f_left .pic img{  border: 1px solid #e7e7e7; padding: 5px; margin: 12px 0 8px 0;}
+.find .f_left .pic{ padding-bottom: 20px;}
+.find .f_right{ width: 930px;  right: 0; min-height: 100%; position: absolute;}
+.find .f_right .bar{ width: 720px; height: 2px; background: #cccccc; position: relative;}
+.find .f_right .inner_bar{ background:#ff4a03; height: 2px; position: absolute; top:0; left: 0;}
+.find .f_right .inner_bar.one{ width: 100px;}
+.find .f_right .inner_bar.two{ width: 340px;}
+.find .f_right .inner_bar.three{ width: 100%;}
+.find .f_right .squre{ width: 41px; height: 41px; background: url("../images/squre.png") no-repeat center -41px; font-size: 18px; color: #fff; line-height: 41px; text-align: center; margin:-20px 0 15px 0;}
+.find .f_right .number{ position: absolute;}
+.find .f_right .number .txt{ width: 60px; text-align: center; margin-left: -10px;}
+.find .f_right .number.on .txt{ color: #e95239;}
+.find .f_right .number.on .squre{ background-position:0px 0px;}
+.find .f_right .first{ left: 100px;}
+.find .f_right .second{ left: 340px;}
+.find .f_right .third{ left: 580px;}
+.find .f_right .step{ display: inline-block; margin: 70px 0 90px 105px; width: 720px;}
+.find .f_right .write{ display: inline-block; margin: 50px 0 0 240px;}
+.find .f_right .write .name{ display:inline-block; float: left; width: 95px;text-align: right; margin-right: 8px; line-height: 40px;}
+.find .f_right .write .name i{ color:#ff4a03; font-style: normal;}
+.find .f_right .write input[type=text]{ width: 358px; height: 38px; text-indent: 10px; border: 1px solid #cccccc;}
+.find .f_right .write li{ height: auto; overflow: hidden; margin-bottom: 38px;}
+.find .f_right .write .yan{ vertical-align: middle;}
+.find .f_right .write .change{ color: #0088cc; cursor: pointer; vertical-align: bottom;}
+.find .f_right .write .btn{ color: #fff; width: 240px; height: 40px; font-size: 18px; background: #ff4a03;}
+.find .f_right .write .btn:hover{ background: #f52b00;}
+.find .f_right .write .li_right{ line-height: 40px;}
+.find .f_right .write input[type=text].w240{ width: 240px;}
+.find .f_right .write .get{ width: 100px; height: 40px; background: #cccccc; color: #fff;}
+.find .f_right .write .get:hover{ background: #f52b00;}
+.find .f_right .write .tip{ background: url("../images/q_icon1.png") no-repeat left -253px; text-indent: 20px; line-height: 20px; color: #e4393c;}
+.find .f_right .write li.mb10{ margin-bottom: 10px;}
+.find .f_right .finish{ display: inline-block; margin:0 auto ;font-size: 18px;text-indent: 40px; text-align: left;}
+.find .f_right .finish p{ background: url("../images/finish.png") no-repeat; line-height: 26px; }
+.find .f_right .finish a{ display: inline-block;  color: #ff4a03;  text-decoration:underline; margin: 15px 0;}
+/*新替换banner  1.11*/
+.show_new{ display:none; background: url("../images/login_bg2.jpg") no-repeat; margin-top: 35px; width: 599px; height: 534px; }
+.text_hide{ text-indent: -9999px;}
+.show_new h2{ height: 0px;}
+.show_new .text4{ background: url("../images/login_text4.png"); width: 169px; height: 49px; top: 128px; left: 144px;
+    animation:fadeInUp 0.6s .2s ease both;-webkit-animation:fadeInUp 0.6s .2s ease both;
+    -moz-animation:fadeInUp 0.6s .2s ease both;-ms-animation:fadeInUp 0.6s .2s ease both;
+    -o-animation:fadeInUp 0.6s .2s ease both;}
+.show_new .text3{ background: url("../images/login_text3.png"); width: 274px; height: 59px; top: 190px; left: 135px;animation:fadeInLeft 1s .2s ease both;-webkit-animation:fadeInLeft 1s .2s ease both;
+    -moz-animation:fadeInLeft 1s .2s ease both;-ms-animation:fadeInLeft 1s .2s ease both;
+    -o-animation:fadeInLeft 1s .2s ease both;animation-delay: 0.8s;-webkit-animation-delay: 0.8s;-ms-animation-delay: 0.8s;-o-animation-delay: 0.8s;-moz-animation-delay: 0.8s;}
+.show_new .text1{ background: url("../images/login_text1.png");  width: 399px; height: 80px; top: 270px; left: 130px; animation:mymove 1s .2s ease both;-webkit-animation:mymove 1s .2s ease both;
+    -moz-animation:mymove 1s .2s ease both;-ms-animation:mymove 1s .2s ease both;
+    -o-animation:mymove 1s .2s ease both;animation-delay: 1.2s;-webkit-animation-delay: 1.2s;-ms-animation-delay: 1.2s;-o-animation-delay: 1.2s;-moz-animation-delay: 1.2s;}
+.show_new .text2{ background: url("../images/login_text2.png");  width: 270px; height: 37px; top: 365px; left: 250px;animation:fadeInRight 1s .2s ease both;-webkit-animation:fadeInRight 1s .2s ease both;
+    -moz-animation:fadeInRight 1s .2s ease both;-ms-animation:fadeInRight 1s .2s ease both;
+    -o-animation:fadeInRight 1s .2s ease both;animation-delay: 1.6s;-webkit-animation-delay: 1.6s;-ms-animation-delay: 1.6s;-o-animation-delay: 1.6s;-moz-animation-delay: 1.6s;}
+@keyframes fadeInUp{
+    0%{opacity:0;
+        transform:translateY(20px)}
+    100%{opacity:1;
+        transform:translateY(0);}
+}
+@-webkit-keyframes fadeInUp{
+    0%{opacity:0;
+        -webkit-transform:translateY(20px)}
+    100%{opacity:1;
+        -webkit-transform:translateY(0)}
+}
+@-moz-keyframes fadeInUp{
+    0%{opacity:0;
+        -moz-transform:translateY(20px)}
+    100%{opacity:1;
+        -moz-transform:translateY(0)}
+}
+@-ms-keyframes fadeInUp{
+    0%{opacity:0;
+        -ms-transform:translateY(20px)}
+    100%{opacity:1;
+        -ms-transform:translateY(0)}
+}
+@-o-keyframes fadeInUp{
+    0%{opacity:0;
+        -o-transform:translateY(20px)}
+    100%{opacity:1;
+        -o-transform:translateY(0)}
+}
+@keyframes fadeInLeft{
+    0%{opacity:0;
+        transform:translateX(-20px)}
+    100%{opacity:1;
+        transform:translateX(0)}
+}
+@-webkit-keyframes fadeInLeft{
+    0%{opacity:0;
+        -webkit-transform:translateX(-20px)}
+    100%{opacity:1;
+        -webkit-transform:translateX(0)}
+}
+@-moz-keyframes fadeInLeft{
+    0%{opacity:0;
+        -moz-transform:translateX(-20px)}
+    100%{opacity:1;
+        -moz-transform:translateX(0)}
+}
+@-ms-keyframes fadeInLeft{
+    0%{opacity:0;
+        -ms-transform:translateX(-20px)}
+    100%{opacity:1;
+        -ms-transform:translateX(0)}
+}
+@-o-keyframes fadeInLeft{
+    0%{opacity:0;
+        -o-transform:translateX(-20px)}
+    100%{opacity:1;
+        -o-transform:translateX(0)}
+}
+@keyframes mymove{
+    0%{opacity:0;
+        transform: scale(0,0);}
+    100%{opacity:1;
+        transform:scale(1,1);}
+}
+@-webkit-keyframes mymove{
+    0%{opacity:0;
+        -webkit-transform: scale(0,0);}
+    100%{opacity:1;
+        -webkit-transform:scale(1,1);}
+}
+@-moz-keyframes mymove{
+    0%{opacity:0;
+        -moz-transform:scale(0,0);}
+    100%{opacity:1;
+        -moz-transform:scale(1,1);}
+}
+@-ms-keyframes mymove{
+    0%{opacity:0;
+        -ms-transform: scale(0,0);}
+    100%{opacity:1;
+        -ms-transform:scale(1,1);}
+}
+@-o-keyframes mymove{
+    0%{opacity:0;
+        -o-transform:scale(0,0);}
+    100%{opacity:1;
+        -o-transform:scale(1,1);}
+}
+@keyframes fadeInRight{
+    0%{opacity:0;
+        transform:translateX(20px)}
+    100%{opacity:1;
+        transform:translateX(0)}
+}
+@-webkit-keyframes fadeInRight{
+    0%{opacity:0;
+        -webkit-transform:translateX(20px)}
+    100%{opacity:1;
+        -webkit-transform:translateX(0)}
+}
+@-moz-keyframes fadeInRight{
+    0%{opacity:0;
+        -moz-transform:translateX(20px)}
+    100%{opacity:1;
+        -moz-transform:translateX(0)}
+}
+@-ms-keyframes fadeInRight{
+    0%{opacity:0;
+        -ms-transform:translateX(20px)}
+    100%{opacity:1;
+        -ms-transform:translateX(0)}
+}
+@-o-keyframes fadeInRight{
+    0%{opacity:0;
+        -o-transform:translateX(20px)}
+    100%{opacity:1;
+        -o-transform:translateX(0)}
+}

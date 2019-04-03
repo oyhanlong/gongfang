@@ -1,0 +1,45 @@
+#www{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#qqq{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#eee{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#rrr{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.head_box p {
+    line-height: 28px;
+}
+.ui_need .ui_btn, .ui_need .ui_s_btn {
+    background-color: #16a33d;
+}
+.ui_btn {
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 160px;
+}
+.ml10 {
+    margin-left: 10px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+button, select {
+    text-transform: none;
+}

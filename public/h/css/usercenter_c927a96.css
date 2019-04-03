@@ -1,0 +1,114 @@
+/* Code tidied up by ScrapBook */
+.btn-uc-rgt i, .down-tag i, .pic-tab-more i, .pic-tab-prompt i, .thumb-fail i, .uc-content-nav i, .uc-lst-tag i, .uc-lst-tag10 i, .uc-lst-tag2 i, .uc-lst-tag3 i, .uc-lst-tag6 i, .uc-lst-tag7 i, .uc-lst-tag8 i, .uc-lst-tag9 i, .uc-notice-tag i, .uc-notice-tag2 i, .uc-notice-tag3 i, .uc-notice-tag4 i, .uc-notice-tag5 i, .uc-notice-tag6 i, .uc-notice-tag7 i, .uc-notice-tag8 i, .uc-tab i, .uc-top .icon-activity, .up-tag i { background-image: url("sprite_icon_fe1a08b.png"); }
+.btn-uc-signin::before, .btn-uc-signin:hover::before, .uc-data-top-txt::after, .uc-data-top-txt::before, .uc-grade-mark li::before, .uc-grade-prompt::after, .uc-top .user-ribbon-v1::after, .uc-top .user-ribbon-v2::after { background-image: url("sprite_usercenter_c92852c.png"); }
+.cur .uc-tab i { transform: rotate(0deg); }
+.uc-content-nav i, .uc-tab i { transform: rotate(180deg); }
+.medal-list::after, .medal-list::before, .medal-nav-list::after, .medal-nav-list::before, .pic-section::after, .pic-section::before, .uc-grade-mark::after, .uc-grade-mark::before { display: table; content: ""; }
+.medal-list::after, .medal-nav-list::after, .pic-section::after, .uc-grade-mark::after { clear: both; }
+.activity-lst-tit, .activity-lst-txt, .popup-lst a, .uc-grade-prompt .mycard-name, .uc-info-tit, .uc-info-txt, .uc-lst-tit, .uc-lst-tit-blue, .uc-top .mycard-name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.uc-none .btn-uc-none { text-align: center; color: rgb(255, 255, 255); border-radius: 2px; background-color: rgb(51, 126, 255); }
+.uc-none .btn-uc-none:hover { background-color: rgb(48, 118, 240); }
+@media screen and (min-width: 0px) {
+}
+@media screen and (min-width: 0px) {
+}
+@media screen and (min-width: 0px) {
+}
+@media screen and (min-width: 0px) {
+}
+@media screen and (min-width: 0px) {
+}
+.popup-lst { position: absolute; z-index: 1; top: 24px; right: 8px; display: none; border: 1px solid rgb(224, 224, 224); border-radius: 2px; background-color: rgb(255, 255, 255); box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08); }
+.popup-lst li { position: relative; margin: 0px 10px; border-top: 1px solid rgb(242, 242, 242); }
+.popup-lst li:first-child { border-top: medium none; }
+.popup-lst a { line-height: 33px; display: block; height: 34px; margin: 0px -10px; padding: 0px 18px; color: rgb(51, 51, 51); white-space: nowrap; }
+.popup-lst a:hover { background-color: rgb(245, 245, 245); }
+.uc-top { position: relative; overflow: hidden; width: 980px; height: 161px; margin: 0px auto; padding-top: 50px; }
+.uc-top-lft { float: left; margin-top: -50px; margin-right: 24px; }
+.uc-top-lft-box { display: table-cell; height: 211px; vertical-align: middle; }
+.uc-top .user-thumb { position: relative; display: block; width: 100px; height: 100px; }
+.uc-top .user-thumb::before { position: absolute; top: 0px; left: 0px; width: 96px; height: 96px; content: ""; border: 2px solid rgba(0, 0, 0, 0.1); border-radius: 100%; }
+.uc-top .user-thumb img { border-radius: 100%; }
+.uc-top .user-thumb:hover::before { background-color: rgba(0, 0, 0, 0.3); }
+.uc-top .user-thumb::before { border-color: rgba(255, 255, 255, 0.7); }
+.uc-top .mycard-name-box { line-height: 24px; margin-top: 3px; }
+.uc-top .mycard-name { font-size: 18px; display: inline-block; max-width: 190px; vertical-align: top; color: rgb(255, 255, 255); }
+.uc-top .user-level-tag { position: absolute; margin: 5px 0px 0px 11px; }
+.uc-info { position: absolute; top: 35px; right: 0px; width: 420px; text-align: center; }
+.uc-info li { position: relative; float: left; width: 70px; margin: 0px 0px 10px 70px; }
+.uc-info-tab { display: block; height: 60px; padding-top: 5px; border-radius: 2px; }
+.uc-info-tit { line-height: 22px; margin-bottom: 4px; color: rgb(173, 216, 255); }
+.uc-info-txt { font-size: 20px; line-height: 28px; color: rgb(255, 255, 255); }
+.uc-content { margin: 10px 0px; border-radius: 2px; background-color: rgb(255, 255, 255); }
+.uc-lft { float: left; width: 124px; padding: 24px 18px; border-right: 1px solid rgb(235, 235, 235); }
+.uc-nav li { margin-bottom: 18px; }
+.uc-tab { font-size: 15px; line-height: 33px; display: block; height: 34px; padding: 0px 12px; border-radius: 2px; }
+.uc-tab:hover { background-color: rgb(242, 242, 242); }
+.uc-tab i { display: block; float: right; margin-top: 12px; opacity: 0.5; background-position: -175px 0px; width: 6px; height: 10px; }
+.cur .uc-tab { color: rgb(255, 255, 255); background-color: rgb(51, 126, 255); }
+.cur .uc-tab i { opacity: 1; background-position: -79px -60px; }
+.uc-rgt { min-height: 308px; margin-left: 160px; padding: 0px 18px; border-left: 1px solid rgb(235, 235, 235); }
+.uc-rgt .page-num { padding-bottom: 20px; }
+.uc-rgt .uc-lst:nth-last-child(1) li:last-of-type { border-bottom: medium none; }
+.uc-rgt .my-interest { margin-top: 14px; padding: 10px 0px 0px 10px; border: 1px solid rgb(242, 242, 242); border-radius: 2px; background-color: rgb(250, 250, 250); }
+.uc-top-bar { line-height: 26px; margin: 0px -18px; padding: 12px 18px; border-bottom: 1px solid rgb(235, 235, 235); }
+.uc-lst .user-thumb-box { padding-right: 12px; }
+.uc-lst li { position: relative; padding: 20px 0px; border-bottom: 1px solid rgb(242, 242, 242); }
+.uc-lst .user-thumb { margin-top: 3px; position: relative; display: block; width: 38px; height: 38px; }
+.uc-lst .user-thumb::before { position: absolute; top: 0px; left: 0px; width: 36px; height: 36px; content: ""; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 100%; }
+.uc-lst .user-thumb img { border-radius: 100%; }
+.uc-lst .user-thumb:hover::before { background-color: rgba(0, 0, 0, 0.3); }
+.uc-lst-info { overflow: hidden; }
+.uc-tit-box { line-height: 22px; position: relative; overflow: hidden; max-width: 540px; max-height: 66px; }
+.uc-lst-tit { float: left; max-width: 467px; margin-right: 10px; }
+.uc-lst-tit:hover { color: rgb(51, 126, 255); }
+.uc-lst-tit:only-child { max-width: 540px; }
+.uc-lst-bar { font-size: 12px; overflow: hidden; margin-top: 6px; color: rgb(163, 163, 163); }
+.uc-lst-txt { line-height: 19px; float: left; margin-right: 15px; }
+.uc-tag-box { line-height: 18px; position: absolute; top: 50%; right: 10px; height: 47px; margin-top: -23px; color: rgb(163, 163, 163); }
+.uc-tag-box .uc-lst-tag, .uc-tag-box .uc-lst-tag10, .uc-tag-box .uc-lst-tag2, .uc-tag-box .uc-lst-tag3, .uc-tag-box .uc-lst-tag6, .uc-tag-box .uc-lst-tag7, .uc-tag-box .uc-lst-tag8, .uc-tag-box .uc-lst-tag9 { float: left; min-width: 60px; margin-left: 18px; }
+.uc-tag-box .uc-lst-tag i, .uc-tag-box .uc-lst-tag10 i, .uc-tag-box .uc-lst-tag2 i, .uc-tag-box .uc-lst-tag3 i, .uc-tag-box .uc-lst-tag6 i, .uc-tag-box .uc-lst-tag7 i, .uc-tag-box .uc-lst-tag8 i, .uc-tag-box .uc-lst-tag9 i { display: block; margin: 0px auto 5px; }
+.uc-lst-tag-tit { font-size: 12px; text-align: center; }
+.uc-lst-tag6 i { background-position: -89px -52px; width: 24px; height: 24px; }
+.uc-none { font-size: 15px; line-height: 22px; padding: 48px 0px; text-align: center; color: rgb(163, 163, 163); }
+.uc-none a { color: rgb(51, 126, 255); }
+.uc-none a:hover { color: rgb(20, 90, 209); }
+.uc-none img { display: block; margin: 0px auto 18px; }
+.uc-none .btn-uc-none { display: block; margin: 38px auto 0px; color: rgb(255, 255, 255); line-height: 35px; width: 114px; height: 36px; }
+.uc-none .btn-uc-none:hover { color: rgb(255, 255, 255); }
+.uc-growup { padding: 18px 0px 0px; border-top: 1px solid rgb(242, 242, 242); }
+.uc-growup:first-of-type { border-top: medium none; }
+.uc-growup-tit { font-size: 18px; font-weight: 700; line-height: 25px; }
+.btn-uc-rgt { font-size: 14px; font-weight: 400; float: right; color: rgb(51, 126, 255); }
+.btn-uc-rgt:hover { color: rgb(20, 90, 209); }
+.btn-uc-rgt i { display: inline-block; margin-left: 6px; background-position: -79px -72px; width: 6px; height: 10px; }
+.uc-grade-box { padding: 172px 14px 84px; }
+.uc-grade { position: relative; height: 8px; border: 1px solid rgb(235, 235, 235); border-radius: 6px; background-color: rgb(242, 242, 242); }
+.uc-grade-inside { height: 10px; margin: -1px 0px 0px -1px; border-radius: 6px; background-image: linear-gradient(-90deg, rgb(51, 126, 255) 0px, rgb(127, 219, 35) 52%, rgb(255, 213, 0) 100%); }
+.uc-grade-mark { line-height: 22px; position: absolute; bottom: -14px; left: 0px; width: 100%; }
+.uc-grade-mark li { position: relative; width: 40px; margin-left: -21px; text-align: center; }
+.uc-grade-mark li::before { position: absolute; top: -8px; left: 50%; display: block; margin-left: -3px; content: ""; background-position: -32px -79px; width: 6px; height: 6px; }
+.uc-grade-mark .mark { position: absolute; top: 0px; left: 0px; }
+.uc-grade-mark .mark2 { position: absolute; top: 0px; left: 25%; }
+.uc-grade-mark .mark3 { position: absolute; top: 0px; left: 50%; }
+.uc-grade-mark .mark4 { position: absolute; top: 0px; left: 75%; }
+.uc-grade-mark .mark5 { position: absolute; top: 0px; left: 100%; }
+.uc-grade-prompt { position: absolute; top: -112px; height: 70px; margin-left: -2px; padding: 10px; white-space: nowrap; border-radius: 2px; background-image: radial-gradient(50% 152%, rgb(51, 187, 255) 0px, rgb(59, 121, 245) 100%); }
+.uc-grade-prompt::after { position: absolute; bottom: -19px; left: -2px; display: block; content: ""; background-position: 0px -88px; width: 6px; height: 20px; }
+.btn-uc-signin { font-size: 12px; line-height: 20px; position: absolute; bottom: -21px; left: 20px; width: 70px; height: 21px; margin-left: -19px; animation: 1.5s linear 0s normal none infinite running uc-signin; text-align: center; color: rgb(153, 91, 37); border-radius: 2px; background-color: rgb(255, 213, 0); }
+.btn-uc-signin::before { position: absolute; top: -5px; left: 50%; display: block; margin-left: -7px; content: ""; background-position: -32px -72px; width: 14px; height: 5px; }
+.btn-uc-signin:hover { animation-play-state: paused; color: rgb(153, 91, 37); background-color: rgb(250, 200, 0); }
+.btn-uc-signin:hover::before { display: block; background-position: -48px -72px; width: 14px; height: 5px; }
+@keyframes uc-signin {
+0% { bottom: -18px; }
+50% { bottom: -24px; }
+100% { bottom: -18px; }
+}
+@keyframes uc-signin {
+0% { bottom: -18px; }
+50% { bottom: -24px; }
+100% { bottom: -18px; }
+}
+.user-level { font-size: 15px; line-height: 22px; padding-bottom: 4px; color: rgb(255, 255, 255); }
+.uc-grade-prompt .progress-tit { float: initial; }
+.uc-grade-prompt .progress-info { display: inline-block; float: initial; }

@@ -1,0 +1,35 @@
+/* Code tidied up by ScrapBook */
+@keyframes move_bg {
+0% { background-position: 0px 0px; }
+50% { background-position: 80px 0px; }
+100% { background-position: 160px 0px; }
+}
+@keyframes move_bg {
+0% { background-position: 0px 0px; }
+50% { background-position: 80px 0px; }
+100% { background-position: 160px 0px; }
+}
+@keyframes move_bg {
+0% { background-position: 0px 0px; }
+50% { background-position: 80px 0px; }
+100% { background-position: 160px 0px; }
+}
+.acc_nav { padding: 17px 0px 360px; background-color: rgb(255, 255, 255); }
+.acc_nav h2 { margin: 0px 20px; text-indent: 10px; font-size: 16px; padding-bottom: 17px; }
+.acc_nav ul { padding: 10px 0px 0px; }
+.acc_nav li { text-indent: 58px; height: 46px; line-height: 46px; border-left: 3px solid rgb(255, 255, 255); background-image: url("y_icon.png"); background-repeat: no-repeat; background-position: 32px 16px; }
+.acc_nav li a { display: block; }
+.acc_nav li.no2 { background-position: 32px -37px; }
+.acc_nav li.no5 { background-position: 32px -190px; }
+.ui_need .acc_nav li.active, .ui_need .acc_nav li:hover { border-left-color: rgb(255, 74, 3); background-color: rgb(255, 240, 235); }
+.acc_nav li:hover a { text-decoration: none; }
+.acc_cont { padding: 0px 30px 220px; }
+.acc_cont .ui_btn:hover { text-decoration: none; }
+.acc_ul li { clear: both; }
+.acc_ul li span { margin-top: 20px; width: 105px; margin-right: 20px; display: inline-block; float: left; text-align: right; line-height: 32px; }
+.acc_ul li .right { margin-top: 20px; float: left; width: 84.9%; }
+.acc_ul li .right .head_pic { position: relative; width: 80px; height: 80px; line-height: 80px; text-align: center; overflow: hidden; }
+.acc_ul li .right .head_pic img { max-width: 80px; max-height: 80px; vertical-align: middle; }
+.acc_ul li .right .head_pic a { position: absolute; left: 0px; bottom: 0px; padding-left: 0px; width: 100%; height: 20px; line-height: 20px; color: rgb(255, 255, 255); text-align: center; background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%; text-decoration: none; }
+.acc_ul li .right .head_pic a:hover { text-decoration: none; }
+.acc_ul li .right var { font-style: normal; line-height: 32px; color: rgb(102, 102, 102); }

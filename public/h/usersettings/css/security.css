@@ -1,0 +1,58 @@
+.security li span {
+    background: rgba(0, 0, 0, 0) url("../images/y_icon2.png") no-repeat scroll center 12px;
+    border: 1px solid #3642b3;
+    border-radius: 100%;
+    display: inline-block;
+    float: left;
+    height: 54px;
+    margin: 0 18px 0 12px;
+    width: 54px;
+}
+
+
+.security li {
+    height: 56px;
+    padding: 18px 0;
+    position: relative;
+}
+.ui_dashed, .ui_ul_dashed li {
+    border-bottom: 1px dashed #cccccc;
+}
+
+
+.security li.no2 span {
+    background-position: center -158px;
+    border-color: rgb(204, 204, 204);
+}
+
+.security .sec_txt a {
+    color: #3642b3;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 30px;
+    width: 100px;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+
+
+.security .sec_txt p {
+    line-height: 24px;
+}
+.ui_gray2 {
+    color: #999;
+}
+
+.security .sec_txt strong {
+    line-height: 30px;
+}
+
+
+.security li.no1 span {
+    background-position: center -45px;
+}
